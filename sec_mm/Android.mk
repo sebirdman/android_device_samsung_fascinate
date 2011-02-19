@@ -1,4 +1,4 @@
-ifeq ($(filter-out aries,$(TARGET_BOOTLOADER_BOARD_NAME)),)
+ifeq ($(TARGET_DEVICE),fascinate)
 
 WITH_SEC_OMX := true
 
